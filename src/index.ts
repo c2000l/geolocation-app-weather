@@ -1,6 +1,6 @@
 export default {
 	async fetch(request): Promise<Response> {
-		let endpoint = "https://api.waqi.info/feed/geo:";
+		let endpoint = "https://api.waqi.info/feed/geo:39.9042;116.4074/?token=demo";
 		const token = ""; //Use a token from https://aqicn.org/api/
 		let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
 
